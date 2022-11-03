@@ -15,7 +15,7 @@ export default function App() {
   const handleStartCounter = (e) => {
     timeout = setTimeout(() => {
       setCounter((prev) => prev + 1);
-    }, 500);
+    }, 1000);
     if (start === false) setStart(true);
   };
 
